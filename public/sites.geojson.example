@@ -1,0 +1,44 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "h4",
+        "name": "Temple of Artemis",
+        "building_type": "temple",
+        "period": ["Hellenistic", "Roman"]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [40.7270, 34.7470],
+          [40.7275, 34.7470],
+          [40.7275, 34.7475],
+          [40.7270, 34.7475],
+          [40.7270, 34.7470]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "h2",
+        "name": "Temple of Atargatis",
+        "building_type": "temple",
+        "period": ["Roman"]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [40.7265, 34.7468],
+          [40.7270, 34.7468],
+          [40.7270, 34.7472],
+          [40.7265, 34.7472],
+          [40.7265, 34.7468]
+        ]]
+      }
+    }
+  ]
+}
+

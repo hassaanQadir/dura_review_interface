@@ -1,18 +1,33 @@
 {
   "dependencies": {
+    "@recogito/annotorious-openseadragon": "^2.7.19",
     "@supabase/supabase-js": "^2.49.8",
+    "@types/maplibre-gl": "^1.13.2",
+    "@types/node": "^24.9.1",
+    "@types/react": "^19.2.2",
+    "dotenv": "^17.2.3",
     "firebase-admin": "^13.4.0",
+    "maplibre-gl": "^5.9.0",
+    "mirador": "^4.0.0",
     "next": "^15.4.4",
+    "openseadragon": "^5.0.1",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "react-map-gl": "^8.1.0",
+    "typescript": "^5.9.3",
+    "zustand": "^5.0.8"
   },
   "name": "dura_review_interface",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next dev"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "migrate": "node scripts/migrate_data.js",
+    "type-check": "tsc --noEmit"
   },
   "repository": {
     "type": "git",
@@ -21,9 +36,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/Weining-Fang/dura_review_interface/issues"
   },
-  "homepage": "https://github.com/Weining-Fang/dura_review_interface#readme"
+  "homepage": "https://github.com/Weining-Fang/dura_review_interface#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.0"
+  }
 }
